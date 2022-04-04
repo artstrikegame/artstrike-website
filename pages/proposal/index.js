@@ -64,6 +64,14 @@ export default function Proposal() {
                     </div>
                 </div>
 
+                <div className={styles.apply}>
+                    <Link href="/proposal/applications">
+                        <a>
+                            APPLY
+                        </a>
+                    </Link>
+                </div>
+
                 <br/>
                 <br/>
                 

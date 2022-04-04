@@ -62,6 +62,14 @@ export default function Home() {
                   </Link>
               </div>
           </div>
+          
+          <div className={styles.apply}>
+              <Link href="/proposal/applications">
+                  <a>
+                      APPLY
+                  </a>
+              </Link>
+          </div>
         
       </main>
 

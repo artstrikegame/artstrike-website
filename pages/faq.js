@@ -72,6 +72,14 @@ export default function FAQ() {
                     A: It closes April 25th, 2022 @ 11:59PM PST. You can also check the schedule for more information. <br/>
                 </p>
 
+                <div className={styles.apply}>
+                    <Link href="/proposal/applications">
+                        <a>
+                            APPLY
+                        </a>
+                    </Link>
+                </div>
+
             </main>
 
             <footer className={styles.footer}>

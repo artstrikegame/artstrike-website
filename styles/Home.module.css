@@ -133,6 +133,17 @@
   left: 0;
 }
 
+.apply {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #eaeaea;
+  position: absolute;
+  padding-right: 1rem;
+  top: 0;
+  right: 0;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -182,7 +193,6 @@
   .navButtons{
     color: #eaeaea;
     font-size: 1rem;
-    border: 1px solid #333;
   }
   
 }

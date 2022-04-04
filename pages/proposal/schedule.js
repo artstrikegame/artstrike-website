@@ -148,6 +148,14 @@ export default function Schedule() {
 
                 </p>
 
+                <div className={styles.apply}>
+                    <Link href="/proposal/applications">
+                        <a>
+                            APPLY
+                        </a>
+                    </Link>
+                </div>
+
             </main>
 
             <footer className={styles.footer}>

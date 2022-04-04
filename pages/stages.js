@@ -67,6 +67,14 @@ export default function Stages() {
                     Coming Soon!
                 </p>
 
+                <div className={styles.apply}>
+                    <Link href="/proposal/applications">
+                        <a>
+                            APPLY
+                        </a>
+                    </Link>
+                </div>
+
             </main>
 
             <footer className={styles.footer}>

@@ -47,6 +47,17 @@
     font-size: 2rem;
 }
 
+.apply {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #eaeaea;
+    position: absolute;
+    padding-right: 1rem;
+    top: 0;
+    right: 0;
+}
+
 .title a {
     color: #0070f3;
 

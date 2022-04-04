@@ -112,6 +112,14 @@ export default function Applications() {
                     </div>
                 </div>
 
+                <div className={styles.apply}>
+                    <Link href="/proposal/applications">
+                        <a>
+                            APPLY
+                        </a>
+                    </Link>
+                </div>
+
             </main>
 
             <footer className={styles.footer}>
