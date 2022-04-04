@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>ArtStrike</title>
-        <meta name="description" content="Art Strike Game" />
+        <meta name="description" content="A free to play, open source 2D fighting game made by collaborating artists. Apply Now!" />
         <link rel="icon" href="/artstrike-favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
