@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,32 +24,42 @@ export default function Home() {
                   <Image src="/artstrike-mainlogo.png" alt="ArtStrike Logo" width="1430" height="520" layout="intrinsic" objectFit="contain"></Image>
               </a>
           </h1>
-          
-          <div className={styles.navContainer}>
-              <div className={styles.navButtons}>
-                  <a href="/proposal">
-                      Project Proposal
-                  </a>
+
+          <div className={styles.footerSocials}>
+              <div className={styles.footerItem}>
+                  <Link href="/proposal">
+                      <a>
+                          Project Proposal
+                      </a>
+                  </Link>
               </div>
-              <div className={styles.navButtons}>
-                  <a href="/team">
-                      Meet The Team
-                  </a>
+              <div className={styles.footerItem}>
+                  <Link href="/team">
+                      <a>
+                          Meet The Team
+                      </a>
+                  </Link>
               </div>
-              <div className={styles.navButtons}>
-                  <a href="/fighters">
-                      Fighters
-                  </a>
+              <div className={styles.footerItem}>
+                  <Link href="/fighters">
+                      <a>
+                          Fighters
+                      </a>
+                  </Link>
               </div>
-              <div className={styles.navButtons}>
-                  <a href="/stages">
-                      Stages
-                  </a>
+              <div className={styles.footerItem}>
+                  <Link href="/stages">
+                      <a>
+                          Stages
+                      </a>
+                  </Link>
               </div>
-              <div className={styles.navButtons}>
-                  <a href="/faq">
-                      FAQ
-                  </a>
+              <div className={styles.footerItem}>
+                  <Link href="/faq">
+                      <a>
+                          FAQ
+                      </a>
+                  </Link>
               </div>
           </div>
         

@@ -28,29 +28,39 @@ export default function Proposal() {
 
                 <div className={styles.footerSocials}>
                     <div className={styles.footerItem}>
-                        <a href="/proposal">
-                            Project Proposal
-                        </a>
+                        <Link href="/proposal">
+                            <a>
+                                Project Proposal
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.footerItem}>
-                        <a href="/team">
-                            Meet The Team
-                        </a>
+                        <Link href="/team">
+                            <a>
+                                Meet The Team
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.footerItem}>
-                        <a href="/fighters">
-                            Fighters
-                        </a> 
+                        <Link href="/fighters">
+                            <a>
+                                Fighters
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.footerItem}>
-                        <a href="/stages">
-                            Stages
-                        </a>
+                        <Link href="/stages">
+                            <a>
+                                Stages
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.footerItem}>
-                        <a href="/faq">
-                            FAQ
-                        </a>
+                        <Link href="/faq">
+                            <a>
+                                FAQ
+                            </a>
+                        </Link>
                     </div>
                 </div>
 
