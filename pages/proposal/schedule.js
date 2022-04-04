@@ -1,4 +1,6 @@
-﻿﻿import Head from 'next/head'
+﻿import Link from "next/link";
+
+﻿import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Proposal.module.css'
 import React from 'react';
@@ -57,19 +59,25 @@ export default function Schedule() {
 
                 <div className={styles.footerSocials}>
                     <div className={styles.footerItem}>
-                        <a href="/proposal">
-                            Proposal
-                        </a>
+                        <Link href="/proposal">
+                            <a>
+                                Proposal
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.footerItem}>
-                        <a href="/proposal/schedule">
-                            Schedule
-                        </a>
+                        <Link href="/proposal/schedule">
+                            <a>
+                                Schedule
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.footerItem}>
-                        <a href="/proposal/applications">
-                            Applications
-                        </a>
+                        <Link href="/proposal/applications">
+                            <a>
+                                Applications
+                            </a>
+                        </Link>
                     </div>
                 </div>
                 
