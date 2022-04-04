@@ -20,6 +20,10 @@ export default function Home() {
           <p className={styles.description}>
               Coming Soon - April 4th
           </p>
+          
+          <p className={styles.description2}>
+              please
+          </p>
         
       </main>
 

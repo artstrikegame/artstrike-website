@@ -111,6 +111,13 @@
   color: #eaeaea;
 }
 
+.description2 {
+  margin: 0;
+  font-size: 0.1rem;
+  line-height: 1.5;
+  color: #eaeaea;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
