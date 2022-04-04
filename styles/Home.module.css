@@ -38,10 +38,12 @@
 
 .footerItem{
   padding: 10px;
+  color: #eaeaea;
 }
 
 .title a {
   color: #0070f3;
+  
   text-decoration: none;
 }
 
@@ -69,6 +71,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 3rem;
+  color: #eaeaea;
 }
 
 .code {
