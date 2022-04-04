@@ -19,16 +19,38 @@ export default function Home() {
       <main className={styles.main}>
           
           <h1 className={styles.title}>
-            <Image src="/artstrike-mainlogo.png" alt="ArtStrike Logo" width="1430" height="520" layout="intrinsic" objectFit="contain"></Image>
+              <a href="https://www.artstrikegame.com/">
+                  <Image src="/artstrike-mainlogo.png" alt="ArtStrike Logo" width="1430" height="520" layout="intrinsic" objectFit="contain"></Image>
+              </a>
           </h1>
-
-          <p className={styles.description}>
-              Coming Soon - April 4th
-          </p>
           
-          <p className={styles.please}>
-              please
-          </p>
+          <div className={styles.navContainer}>
+              <div className={styles.navButtons}>
+                  <a href="/proposal">
+                      Project Proposal
+                  </a>
+              </div>
+              <div className={styles.navButtons}>
+                  <a href="/team">
+                      Meet The Team
+                  </a>
+              </div>
+              <div className={styles.navButtons}>
+                  <a href="/fighters">
+                      Fighters
+                  </a>
+              </div>
+              <div className={styles.navButtons}>
+                  <a href="/stages">
+                      Stages
+                  </a>
+              </div>
+              <div className={styles.navButtons}>
+                  <a href="/faq">
+                      FAQ
+                  </a>
+              </div>
+          </div>
         
       </main>
 
