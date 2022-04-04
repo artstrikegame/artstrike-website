@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
         <title>ArtStrike</title>
         <meta name="description" content="Art Strike Game" />
         <link rel="icon" href="/artstrike-favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"/>
       </Head>
 
       <main className={styles.main}>
@@ -21,16 +27,29 @@ export default function Home() {
               Coming Soon - April 4th
           </p>
           
-          <p className={styles.description2}>
+          <p className={styles.please}>
               please
           </p>
         
       </main>
 
       <footer className={styles.footer}>
-        <a>
-          © ArtStrike 2022
-        </a>
+          <div className={styles.footerSocials}>
+              <div className={styles.footerItem}> 
+                  <SocialIcon network="email" bgColor="#fff" style={{ height: 18, width: 18 }}/> <a> ArtStrikeGame@gmail.com </a> </div>
+              <div className={styles.footerItem}> 
+                  <SocialIcon url="https://www.instagram.com/artstrike_game" network="instagram" bgColor="#fff" style={{ height: 18, width: 18 }}/>
+                  <a href="https://www.instagram.com/artstrike_game"> ArtStrike_Game </a>
+              </div>
+              <div className={styles.footerItem}> 
+                  <SocialIcon url="https://twitter.com/ArtStrike_Game" network="twitter" bgColor="#fff" style={{ height: 18, width: 18 }}/>
+                  <a href="https://twitter.com/ArtStrike_Game"> @ArtStrike_Game </a>
+              </div>
+          </div>
+          <div className={styles.footerFooter}>
+              <div className={styles.footerItem}>© ArtStrike 2022</div>
+          </div>
+
       </footer>
     </div>
   )
