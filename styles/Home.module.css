@@ -38,10 +38,12 @@
 
 .footerItem{
   padding: 10px;
+  color: #eaeaea;
 }
 
 .title a {
   color: #0070f3;
+  
   text-decoration: none;
 }
 
@@ -56,7 +58,7 @@
   line-height: 1.15;
   font-size: 4rem;
   color: #eaeaea;
-  width: 70vw;
+  width: 30vw;
 }
 
 .title,
@@ -69,6 +71,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 3rem;
+  color: #eaeaea;
 }
 
 .code {
@@ -135,6 +138,33 @@
   margin-left: 0.5rem;
 }
 
+.navButtons{
+  color: #eaeaea;
+  font-size: 2.6rem;
+}
+
+.navButtons:hover{
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+
+.navButtons:hover,
+.navButtons:focus,
+.navButtons:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+
+.navContainer{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -147,6 +177,12 @@
   
   .description{
     font-size: 2rem;
+  }
+
+  .navButtons{
+    color: #eaeaea;
+    font-size: 1rem;
+    border: 1px solid #333;
   }
   
 }
