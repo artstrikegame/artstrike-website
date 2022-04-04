@@ -25,36 +25,36 @@ export default function Home() {
               </a>
           </h1>
 
-          <div className={styles.footerSocials}>
-              <div className={styles.footerItem}>
+          <div className={styles.navContainer}>
+              <div className={styles.navButtons}>
                   <Link href="/proposal">
                       <a>
                           Project Proposal
                       </a>
                   </Link>
               </div>
-              <div className={styles.footerItem}>
+              <div className={styles.navButtons}>
                   <Link href="/team">
                       <a>
                           Meet The Team
                       </a>
                   </Link>
               </div>
-              <div className={styles.footerItem}>
+              <div className={styles.navButtons}>
                   <Link href="/fighters">
                       <a>
                           Fighters
                       </a>
                   </Link>
               </div>
-              <div className={styles.footerItem}>
+              <div className={styles.navButtons}>
                   <Link href="/stages">
                       <a>
                           Stages
                       </a>
                   </Link>
               </div>
-              <div className={styles.footerItem}>
+              <div className={styles.navButtons}>
                   <Link href="/faq">
                       <a>
                           FAQ
